@@ -1,0 +1,29 @@
+{
+  "version": "1.0",
+  "createdAt": "2026-01-02T13:11:22.704Z",
+  "updatedAt": "2026-01-02T13:11:22.704Z",
+  "stats": {
+    "totalPositions": 0,
+    "openPositions": 0,
+    "settledPositions": 0,
+    "totalPnL": 0,
+    "realizedPnL": 0,
+    "unrealizedPnL": 0,
+    "winCount": 0,
+    "lossCount": 0,
+    "winRate": 0,
+    "avgProfit": 0,
+    "maxDrawdown": 0,
+    "byStrategy": {
+      "DUTCH_BOOK": {
+        "count": 0,
+        "pnl": 0
+      },
+      "IMPLICATION": {
+        "count": 0,
+        "pnl": 0
+      }
+    }
+  },
+  "trades": []
+}

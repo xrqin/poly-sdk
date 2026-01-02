@@ -2,7 +2,19 @@
  * Common types used across the SDK
  */
 
-import type { CacheAdapter } from '@catalyst-team/cache';
+// ===== Cache Adapter Interface =====
+// (Previously imported from @catalyst-team/cache, now defined locally)
+
+/**
+ * Cache adapter interface for external cache implementations
+ */
+export interface CacheAdapter {
+  get<T>(key: string): Promise<T | null>;
+  set<T>(key: string, value: T, ttl?: number): Promise<void>;
+  del?(key: string): Promise<void>;
+  exists?(key: string): Promise<boolean>;
+  clear?(): Promise<void>;
+}
 
 // ===== Basic Trading Types =====
 

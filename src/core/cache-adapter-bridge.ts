@@ -6,7 +6,7 @@
  * 2. New CacheAdapter interface (async, second TTL)
  */
 
-import type { CacheAdapter } from '@catalyst-team/cache';
+import type { CacheAdapter } from './types.js';
 import { Cache } from './cache.js';
 
 /**

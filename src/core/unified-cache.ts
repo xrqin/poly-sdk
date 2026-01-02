@@ -9,7 +9,7 @@
  * backward compatibility with existing code.
  */
 
-import type { CacheAdapter } from '@catalyst-team/cache';
+import type { CacheAdapter } from './types.js';
 import { Cache, CACHE_TTL } from './cache.js';
 
 /**

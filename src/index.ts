@@ -14,6 +14,11 @@ export { Cache, CACHE_TTL } from './core/cache.js';
 export { PolymarketError, ErrorCode, withRetry } from './core/errors.js';
 export * from './core/types.js';
 
+// Utilities
+export * from './utils/market-utils.js';
+export * from './utils/relation-extractor.js';
+export * from './utils/implication-arb.js';
+
 // Cache integration (new)
 export type { UnifiedCache } from './core/unified-cache.js';
 export { createUnifiedCache } from './core/unified-cache.js';
